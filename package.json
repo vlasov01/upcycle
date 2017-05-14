@@ -1,0 +1,25 @@
+{
+  "name": "@vlasov01/mqtt-slack-smoke-detector",
+  "version": "1.0.0",
+  "description": "Connects alarms and connection updates from smoke detector to Slack channel using MQTT and Slack API",
+  "main": "home.js",
+  "scripts": {
+    "start": "node home.js",
+    "pretest": "jscs ./lib/",
+    "test": "mocha tests/*.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlasov01/upcycle.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlasov01/upcycle/issues"
+  },
+  "homepage": "https://github.com/vlasov01/upcycle#readme",
+  "dependencies": {
+    "mqtt": "^1.6.3",
+	"request": "latest"
+  }
+}
